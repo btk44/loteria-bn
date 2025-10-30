@@ -1,8 +1,8 @@
 ---
-import Welcome from "../components/Welcome.astro";
+import LotteryChecker from "@/components/LotteryChecker";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout>
-  <Welcome />
+<Layout title="Lottery">
+  <LotteryChecker client:load />
 </Layout>
